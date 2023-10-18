@@ -1,0 +1,85 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background: #eee;
+}
+
+.container{
+    background: white;
+    padding: 15px;
+}
+
+table {
+    width: 100%;
+}
+
+.button {
+    width: 100px;
+    border: none;
+    padding: 5 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+input {
+    width: 70%;
+    margin-bottom: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+textarea {
+    width: 70%;
+    border: 1px solid #dee2e6;
+}
+
+select {
+    width: 70%;
+    border: 1px solid #dee2e6;
+    margin-bottom: 20px;
+
+}
+
+button {
+    background-color: crimson;
+    box-shadow: 10px 10px 20px;
+    font-weight: bold;
+    border: none;
+    width: 100px;
+    height: 33px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+table {
+    width: 50%;
+}
+
+th {
+    border-bottom: 2px solid darkslategray;
+}
+
+tr {
+    border: 2px solid #dee2e6;
+}
+
+h4 {
+    padding-bottom: 0;
+    margin-top: 30px;
+}
+
+.cancelButton {
+    background-color: crimson;
+    box-shadow: 10px 10px 20px;
+    padding: 7px 14px;
+    border-radius: 5px;
+    font-weight: bold;
+}

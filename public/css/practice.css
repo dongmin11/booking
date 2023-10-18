@@ -1,0 +1,34 @@
+/* オーバーレイのスタイル */
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* 背景を暗くする色と透明度を調整 */
+    display: block;
+    z-index: 1; /* モーダルよりも前面に表示 */
+}
+
+/* モーダルダイアログのスタイル */
+#modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 2; /* オーバーレイよりも前面に表示 */
+    display: none;
+}
+
+/* モーダル内のボタンのスタイル */
+#closeButton {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
